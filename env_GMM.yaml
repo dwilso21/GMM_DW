@@ -178,4 +178,5 @@ dependencies:
     - webdataset
     - opencv-python
     - peft
+    - decord
 
