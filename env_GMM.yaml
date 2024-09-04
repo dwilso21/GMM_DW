@@ -171,7 +171,6 @@ dependencies:
     - yarl==1.9.4
     - zipp==3.18.1
     - iopath==0.1.10
-    - pandas==2.2.2
     - omegaconf==2.3.0
     - transformers==4.44.2
     - webdataset==0.2.100
