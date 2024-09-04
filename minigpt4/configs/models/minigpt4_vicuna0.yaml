@@ -17,7 +17,7 @@ model:
   # generation configs
   prompt: ""
 
-  llama_model: "/path/to/vicuna-7b"
+  llama_model: "/content/drive/MyDrive/GMM_DW/Vicuna_7b"
 
 preprocess:
     vis_processor:
