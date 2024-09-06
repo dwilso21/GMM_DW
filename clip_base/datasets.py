@@ -131,7 +131,7 @@ def get_dataset(cfg, is_train, transforms=None):
         classes_names = get_dataset_class_names(cfg.workdir, cfg.dataset)
 
     elif cfg.dataset == "imagenet_R":
-        data_path = '/path/to/imagenet-r/'
+        data_path = '/content/drive/MyDrive/GMM_DW/datasets/imagenet-r'
         dataset = ImageNet_R(
             data_path, 
             train=is_train
