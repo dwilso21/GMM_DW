@@ -4,7 +4,7 @@ model:
 
   max_txt_len: 160
   end_sym: "###"
-  prompt_path: "prompts/alignment.txt"
+  prompt_path: "/content/drive/MyDrive/GMM_DW/prompts/alignment.txt"
   prompt_template: '###Human: {} ###Assistant: '
   ckpt: '/content/drive/MyDrive/GMM_DW/Vicuna_7b/pretrained_minigpt4_7b.pth'
 
