@@ -35,7 +35,7 @@ run:
   warmup_steps: 200
 
   seed: 42
-  output_dir: "output/"
+  output_dir: "/content/drive/MyDrive/GMM_DW/Vicuna_7b/trained model output/"
 
   amp: True
   resume_ckpt_path: null
