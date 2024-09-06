@@ -2,4 +2,4 @@ datasets:
   cc_sbu_align:
     data_type: images
     build_info:
-      storage: /path/to/imgr_align/
+      storage: /content/drive/MyDrive/GMM_DW/datasets/imgr_align
