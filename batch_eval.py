@@ -90,6 +90,8 @@ def get_ordered_class_name(class_order, class_name):
     return new_class_name
 
 cfg_o = cfg.get_o_config()
+
+print(cfg_o)
 _, transforms = clip.load("ViT-B/16", device='cuda:{}'.format(args.gpu_id))
 eval_dataset, classes_names = build_cl_scenarios(
         cfg_o, is_train=False, transforms=transforms
