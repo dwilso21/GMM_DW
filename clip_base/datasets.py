@@ -163,6 +163,8 @@ def build_cl_scenarios(cfg, is_train, transforms) -> nn.Module:
     dataset, classes_names = get_dataset(cfg, is_train)
     # import pdb; pdb.set_trace()
     if cfg.scenario == "class":
+        print(cfg.increment)
+        
         scenario = ClassIncremental(
             dataset,
             initial_increment=cfg.initial_increment,
