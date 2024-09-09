@@ -35,7 +35,8 @@ class ImageNet1000(ImageFolderDataset):
         if self.train:
             self.data_path = os.path.join(self.data_path, "train")
         else:
-            self.data_path = os.path.join(self.data_path, "val")
+            self.data_path = self.data_path
+            #os.path.join(self.data_path, "val")
         return super().get_data()
 
 
