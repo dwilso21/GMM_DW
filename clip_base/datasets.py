@@ -67,7 +67,8 @@ class ImageNet_R(ImageFolderDataset):
         if self.train:
             self.data_path = os.path.join(self.data_path, "train")
         else:
-            self.data_path = os.path.join(self.data_path, "test")
+            self.data_path = self.data_path
+            #os.path.join(self.data_path, "test")
         return super().get_data()
 
 
