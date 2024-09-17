@@ -384,6 +384,9 @@ class RunnerBase:
         self.output_dir = output_dir
 
     def train(self):
+
+        print('From minigpt/runners/runner_base.py train function')
+      
         start_time = time.time()
         best_agg_metric = 0
         best_epoch = 0
